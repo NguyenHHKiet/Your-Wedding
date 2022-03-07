@@ -1,0 +1,63 @@
+.hero { 
+    background: url(./assets/img/pngtree-pink-wedding-gradient-dreamy-pink.jpg) no-repeat center / cover; 
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+}
+.he { 
+    background: url(./assets/img/luxury-wedding-concept-wedding-rings-flowers_23-2148652001.jpg) no-repeat center / cover; 
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+}
+
+.overlay:before {
+    content: '';
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .hero-content {
+      display: table-cell;
+      vertical-align: middle;
+      padding-top: 75px;
+  }
+  
+  .hero-text {
+      max-width: 890px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 15px;
+      text-align: center;
+  }
+  
+  .hero-text h1 {
+      position: relative;
+      margin: 0;
+  }
+  
+  .hero-text p {
+      position: relative;
+      margin: 45px 0 30px;
+      font-size: 20px;
+      color: #26272d;
+  }
+  
+  .hero-text .btn {
+      position: relative;
+      background-color: transparent;
+  }
+  
+  .hero-text .btn:hover {
+      background-color: #26272d;
+      color: #fff;
+  }
+
+  
